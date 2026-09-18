@@ -4,28 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "172.67.150.22",
-      "server_port": 443,
-      "password": "LcICDcp!jD9TFV$NbH",
+      "server": "64.227.67.161",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed=2560",
         "headers": {
-          "Host": "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
