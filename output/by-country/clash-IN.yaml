@@ -28,8 +28,17 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 03 - xiaohe
+  server: 13.140.56.100
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇮🇳 印度 (India) 04 - xiaohe
   server: 152.67.8.205
   port: 80
   udp: true
@@ -40,17 +49,8 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 5.253.29.254
-  port: 14430
-  udp: true
-  type: vless
-  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
-  network: ws
-  ws-opts:
-    path: /vless
     headers:
-      Host: 5.253.29.254
+      Host: 152.67.8.205
 proxy-groups:
 - name: PROXIES
   type: select
