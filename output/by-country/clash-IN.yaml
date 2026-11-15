@@ -38,7 +38,7 @@ proxies:
   ws-opts:
     path: /vless
 - name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: xray-dmr3b3hy-calm-maple-7.cloady.io
+  server: 13.140.253.35
   port: 443
   udp: true
   type: vless
