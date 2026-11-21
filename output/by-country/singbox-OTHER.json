@@ -5,22 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
-      "server": "87.228.101.3",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "172.67.139.189",
       "server_port": 443,
-      "uuid": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
-      "flow": "xtls-rprx-vision",
+      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
       "tls": {
         "enabled": true,
-        "server_name": "www.vk.com",
+        "server_name": "fr-free.fastestrelay.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Rw_ypcQ3am5gspVW2PegJBm3fszjCIj8JYHvSAUPBkY",
-          "short_id": "50c987749602bcb5"
+          "fingerprint": "qq"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/700gvl",
+        "headers": {
+          "Host": "fr-free.fastestrelay.com"
         }
       }
     },
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
